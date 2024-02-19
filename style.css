@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+.paragraf {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.main h3 {
+    color: white;
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.main h6 {
+    color: white;
+    line-height: 1;
+    border-bottom: 2px solid;
+    width: 39%;
+}
+
+.main .bt1 {
+    width: 150px;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    background-color: rgb(16, 18, 169);
+    color: white;
+    transition: 0.7s;
+}
+
+.main .bt1:hover {
+    color: black;
+    background-color: white;
+}
+
+.main .bt2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    background-color: rgb(16, 18, 169);
+    color: white;
+    transition: 0.7s;
+}
+
+.main .bt2:hover {
+    color: black;
+    background-color: white;
+}
+
+#aboutMe {
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#service {
+    color: white;
+}
+
+.card {
+    border: none;
+    outline: none;
+}
+
+.card p {
+    color: gray;
+}
+
+.circle {
+
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.card:hover .circle {
+    background-color: black;
+    color: white;
+}
+
+.contact .btn3 {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    transition: 0.7s;
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+footer{
+    background-color: black;
+    color: white;
+    
+}
